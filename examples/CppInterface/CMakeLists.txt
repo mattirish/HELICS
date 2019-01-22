@@ -4,9 +4,6 @@
 # file and DISCLAIMER for more details.
 #
 
-include_directories("${PROJECT_SOURCE_DIR}/src/helics")
-include_directories("${PROJECT_SOURCE_DIR}/src/helics/cpp98")
-
 add_executable(nonlings_fed1_cpp nonlings_fed1.cpp)
 add_executable(nonlings_fed2_cpp nonlings_fed2.cpp)
 
